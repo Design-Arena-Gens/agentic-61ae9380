@@ -1,0 +1,15 @@
+/* AIPS custom styles */
+:root { --aips-green: #00793B; --aips-blue: #1A237E; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; }
+.navbar-brand img { height: 36px; }
+.btn-aips { background-color: var(--aips-green); color: #fff; }
+.btn-aips:hover { background-color: #006231; color: #fff; }
+.badge-aips { background-color: var(--aips-blue); }
+.footer { background: #f7f9fb; border-top: 1px solid #e6ecf1; }
+.footer a { color: var(--aips-blue); }
+.hero { background: linear-gradient(135deg, rgba(0,121,59,0.08), rgba(26,35,126,0.08)); padding: 64px 0; }
+.card-product img { object-fit: cover; height: 180px; }
+.price { color: var(--aips-blue); font-weight: 700; }
+.form-control:focus { border-color: var(--aips-green); box-shadow: 0 0 0 .2rem rgba(0,121,59,.25); }
+.table thead th { background: #f0f4f8; }
+.alert-aips { border-left: 4px solid var(--aips-green); }
